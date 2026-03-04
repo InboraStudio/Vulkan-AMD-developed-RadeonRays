@@ -60,6 +60,7 @@ public:
     VkPhysicalDevice              phdevice_;
     uint32_t                      queue_family_index_;
     float                         timestamp_period_;
+    unit64                        cuda2_;
 #ifdef USE_RENDERDOC
     RENDERDOC_API_1_4_0* rdoc_api_ = NULL;
 #endif
